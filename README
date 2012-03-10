@@ -1,23 +1,18 @@
 Installation:
-
-    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+    git clone git@github.com:steven-nichols/dotvim.git ~/.vim
 
 Create symlinks:
-
     ln -s ~/.vim/vimrc ~/.vimrc
 
 Switch to the `~/.vim` directory, and fetch submodules:
-
     cd ~/.vim
     git submodule init
     git submodule update
 
 
-
 Maintenance:
 
 Add new submodules:
-
     cd ~/.vim
     mkdir ~/.vim/bundle
     git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
@@ -25,5 +20,4 @@ Add new submodules:
     git commit -m "Install Fugitive.vim bundle as a submodule."
 
 At a later time, the submodules may be upgraded with:
-
     git submodule foreach git pull origin master
