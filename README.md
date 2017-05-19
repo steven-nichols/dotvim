@@ -4,7 +4,7 @@ This is my vim config. Nothing too fancy just the shortcuts that I really like a
 ## Installation
 Run the following commands:
 ```
-git clone git@lnvle0968:labuser/dotvim.git ~/.vim
+git clone git@github.com:steven-nichols/dotvim.git ~/.vim
 ln -s ~/.vim/.vimrc ~/.vimrc
 ```
 
